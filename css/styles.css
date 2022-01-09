@@ -1,0 +1,171 @@
+html, body {
+  color: #434242;
+  font-family: 'Open Sans', sans-serif !important;
+  height: 100%;
+}
+
+body {
+  background: #FFFFFF;
+  font-size: 15px;
+  line-height: 1.64;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+  font-family: 'Montserrat', sans-serif !important;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+h1, h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h2, h3 {
+  font-weight: 400;
+  color: #F38181;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 63px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+}
+
+hr {
+  max-width: 30%;
+  margin: 40px auto;
+}
+
+p.lead {
+  text-align: center;
+  color: #727878;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 21px;
+}
+
+.row {
+  padding-right: 0;
+}
+
+.navbar {
+  z-index: 4;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+.jumbotron {
+  background: no-repeat center fixed url(../images/spiderman.png);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding: 0px;
+  height: 1280px;
+}
+
+.container-fluid {
+  background-color: #FEF1E6;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  top: 28%;
+  z-index: 4;
+  text-align: center;
+  max-width: 1280px;
+}
+
+.jumbotron .container, .jumbotron .container p {
+  text-transform: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.overlay {
+  background-color: #F38181;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  z-index: 2;
+  height: 1280px;
+}
+
+/* Profile Section */
+.background-white {
+  text-align: center;
+  padding: 40px 180px;
+  z-index: 4;
+}
+
+.profile-image {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 246px;
+}
+
+/* Experience Section */
+.background-blue {
+  background-color: #FCE38A;
+  padding: 40px 180px;
+  z-index: 4;
+}
+
+.corrections {
+  max-width: 1280px;
+  position: relative;
+}
+
+.education-table, .career-table {
+  text-align: left;
+}
+
+.education-row p>strong, .career-row p>strong {
+  display: block;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+.education-row, .career-row {
+  font-size: 15px;
+}
+
+.education-period, .career-period {
+  font-size: 15px;
+  line-height: 1.64;
+}
+
+.education-head, .career-head {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Carrer Section */
